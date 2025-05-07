@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  border-radius: 10px;
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  border: 1px solid #ccc;
+}
+
+li:hover {
+  background-color: #ddd;
+}
+
+.selected {
+  background-color: #b3e5fc;
+}
+
+.button {
+  background-color: #0dbc72;
+  border-radius: 20px;
+  width: 20%;
+  cursor: pointer;
+}
+
+.button-disable {
+  border-radius: 20px;
+  width: 20%;
+  cursor: not-allowed;
+}
+
+.result {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: inline-block;
+}
