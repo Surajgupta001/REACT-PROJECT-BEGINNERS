@@ -1,0 +1,67 @@
+.contact-list{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'poppins', sans-serif;
+    background-color: #282c34;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+
+.contact-list-item{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'poppins', sans-serif;
+    background-color: #596c92;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+
+.contact-name{
+    font-size: 1.5rem;
+    font-family: 'poppins', sans-serif;
+    margin: 2px;
+    padding: 5px;
+    color: white;
+}
+
+.contact-email{
+    font-size: 1rem;
+    font-family: 'poppins', sans-serif;
+    margin: 2px;
+    padding: 5px;
+    color: white;
+}
+
+.contact-list{
+    cursor: pointer;
+}
+
+.contact-list-container{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'poppins', sans-serif;
+    background-color: #282c34;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.delete-icon{
+    color: white;
+    font-size: 1.5rem;
+    margin: 2px;
+    padding: 5px;
+    cursor: pointer;
+}
