@@ -1,0 +1,15 @@
+.about h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'poppins', sans-serif;
+}
+
+.about p{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family:cursive
+}
